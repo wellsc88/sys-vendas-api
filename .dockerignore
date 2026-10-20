@@ -1,0 +1,32 @@
+# Maven build output
+**/target/
+
+# Allow the executable app JAR to be copied into the image
+!app/target/app-*.jar
+
+# Exclude the Spring Boot backup artifact so only one JAR is copied
+app/target/app-*.jar.original
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.env
+.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
