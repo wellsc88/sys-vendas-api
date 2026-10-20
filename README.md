@@ -59,7 +59,7 @@ docker-compose up --build
 The stack includes:
 
 - **app**: Spring Boot application on `http://localhost:8000`
-- **postgres**: PostgreSQL 16 on host port `5433`
+- **postgres**: PostgreSQL 16 on host port `5432`
 - **pgadmin**: pgAdmin 4 on `http://localhost:5050`
 
 Environment variables are read from `.env`. Copy `.env.example` to `.env` and adjust the values if needed:
