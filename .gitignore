@@ -1,24 +1,33 @@
+# Maven
 target/
+**/target/
 .flattened-pom.xml
+**/.flattened-pom.xml
+flattened-pom.xml
+**/flattened-pom.xml
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-.kotlin
+
+# Kotlin
+.kotlin/
 
 ### IntelliJ IDEA ###
 .idea/
+**/.idea/
 *.iws
 *.iml
 *.ipr
 
 ### Eclipse ###
-.apt_generated
+.apt_generated/
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
-.sts4-cache
+.sts4-cache/
 
 ### NetBeans ###
 /nbproject/private/
@@ -26,6 +35,8 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
+
+### Build ###
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
@@ -36,5 +47,6 @@ build/
 ### Mac OS ###
 .DS_Store
 
-### ENV ###
+### Environment variables ###
 .env
+**/.env
