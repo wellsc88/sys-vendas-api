@@ -26,6 +26,7 @@
         <module>customers</module>
         <module>orders</module>
         <module>sales</module>
+        <module>shared</module>
     </modules>
 
     <dependencyManagement>
