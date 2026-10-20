@@ -45,6 +45,29 @@ To skip tests:
 mvn clean install -DskipTests
 ```
 
+## Docker
+
+The project includes a `Dockerfile` and `docker-compose.yaml` for local development.
+
+Build the application first, then start the infrastructure and app:
+
+```bash
+mvn clean install -DskipTests
+docker-compose up --build
+```
+
+The stack includes:
+
+- **app**: Spring Boot application on `http://localhost:8000`
+- **postgres**: PostgreSQL 16 on host port `5433`
+- **pgadmin**: pgAdmin 4 on `http://localhost:5050`
+
+Environment variables are read from `.env`. Copy `.env.example` to `.env` and adjust the values if needed:
+
+```bash
+cp .env.example .env
+```
+
 ## Modules
 
 | Module    | Description                                |
