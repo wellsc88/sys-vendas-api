@@ -1,4 +1,4 @@
-package com.well.tech.app;
+package com.well.tech;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
