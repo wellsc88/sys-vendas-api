@@ -1,4 +1,4 @@
-package com.well.tech.exception.resource;
+package com.well.tech.exception.http.notfound;
 
 import com.well.tech.exception.BaseException;
 import org.springframework.http.HttpStatus;
